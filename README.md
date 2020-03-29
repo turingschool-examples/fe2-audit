@@ -1,3 +1,15 @@
+# Week 3 Audit
+
+ Fork this repo (do not clone), then clone your forked copy to your machine. 
+
+ `cd` into the directory for this project
+
+ All work should be completed in the `index.js` file
+
+You will have one hour to complete these exercises. Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to both instructors.
+
+---
+
 For each context exercise, we want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. Your result should be a string in one of the following formats:
 
 'global window object'
