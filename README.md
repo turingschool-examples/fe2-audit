@@ -10,7 +10,7 @@
 
 You will have one hour to complete these exercises.  
 
-Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to your instructor.
+Once you have completed your work, push it up to GitHub and DM the link of your GitHub repo to your instructor.
 
 ---
 
