@@ -10,7 +10,7 @@
 
 You will have one hour to complete these exercises.  
 
-Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to both instructors.
+Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to your instructor.
 
 ---
 
@@ -72,3 +72,8 @@ const farmPrompts = {
 }
 ```
 -- 
+
+*For Bonus Exercise* 
+
+If you have time, please read through the directions in `index.js` to complete the bonus exercise
+
