@@ -8,31 +8,45 @@
 
  All work should be completed in the `index.js` file
 
-You will have one hour to complete these exercises. Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to both instructors.
+You will have one hour to complete these exercises.  
+
+Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to both instructors.
 
 ---
 
-For each context exercise, we want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. Your result should be a string in one of the following formats:
+*For each context exercise*
 
-'global window object'
-'nameOfObject'
-'instance of nameOfClassInstance'
+We want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. Your result should be a string in one of the following formats:
 
---- 
-
-For each scope exercise, we what to know the order of the logs and their values. In the event that the value of a variable would be `undefined` or the code would throw an error, write your answer like so:
-
-[
- { ‘A’: ‘reference error’ },
- { ‘B’: undefined },
- { ‘C’: ‘bar’ }
- …etc
-]
+'global window object'. 
+'nameOfObject'. 
+'instance of nameOfClassInstance'  
 
 --- 
 
-For the prototype exercises, you will want to assign your solution to the variable result. An example of what your solution might look like can be found below: 
+*For each scope exercise* 
 
+We what to know the order of the logs and their values. In the event that the value of a variable would be `undefined` or the code would throw an error, write your answer like so:
+
+```js
+[  
+ { ‘A’: ‘reference error’ },  
+ { ‘B’: undefined },  
+ { ‘C’: ‘bar’ }. 
+ …etc  
+]. 
+```
+
+Your answer should be assigned to the `result` variable.
+
+--- 
+
+For the prototype exercises, you will want to assign your solution to the variable result.  
+
+An example of what your solution might look like can be found below: 
+
+
+```js
 // ./index.js
 const { animals } = require('./datasets/farm');
 
@@ -50,5 +64,5 @@ const farmPrompts = {
 
   }
 }
-
+```
 -- 
