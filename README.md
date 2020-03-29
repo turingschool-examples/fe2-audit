@@ -4,6 +4,8 @@
 
  `cd` into the directory for this project
 
+ Run `npm install` to install dependencies
+
  All work should be completed in the `index.js` file
 
 You will have one hour to complete these exercises. Once you have completed your work, push it up to GitHub and DM a link to your GitHub repo to both instructors.
