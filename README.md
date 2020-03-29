@@ -16,11 +16,17 @@ Once you have completed your work, push it up to GitHub and DM a link to your Gi
 
 *For each context exercise*
 
-We want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. Your result should be a string in one of the following formats:
+We want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. 
 
-'global window object'. 
-'nameOfObject'. 
+Your result should be a string in one of the following formats:
+
+```js
+'global window object'  
+'nameOfObject'  
 'instance of nameOfClassInstance'  
+````
+
+Your answer should be assigned to the `result` variable.
 
 --- 
 
@@ -29,7 +35,7 @@ We want to know what the value of this is when a certain piece of code is execut
 We what to know the order of the logs and their values. In the event that the value of a variable would be `undefined` or the code would throw an error, write your answer like so:
 
 ```js
-[  
+const result = [  
  { ‘A’: ‘reference error’ },  
  { ‘B’: undefined },  
  { ‘C’: ‘bar’ }. 
