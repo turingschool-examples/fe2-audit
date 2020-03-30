@@ -21,21 +21,21 @@ describe('Week 3 audit', () => {
   describe('Scope Problems', () => {
 
     it('Exercise D', () => {
-      expect(audit.exerciseD()).to.deep.equal([{
-       D: 'welcome',
-       A: 'hi',
-       B: 'hi',
-       C: 'hi'
-      }])
+      expect(audit.exerciseD()).to.deep.equal([
+       { 'D': 'welcome' },
+       { 'A': 'hi' },
+       { 'B': 'hi' },
+       { 'C': 'hi' }
+      ])
     });
 
     it('Exercise E', () => {
-      expect(audit.exerciseE()).to.deep.equal([{
-        A: 'heel',
-        C: 'heel',
-        B: 'boot',
-        D: 'boot'
-      }]);
+      expect(audit.exerciseE()).to.deep.equal([
+        { 'A': 'heel' },
+        { 'C': 'heel' },
+        { 'B': 'boot' },
+        { 'D': 'boot' }
+      ]);
     });
   });
 
