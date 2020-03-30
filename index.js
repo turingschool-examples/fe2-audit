@@ -109,7 +109,7 @@ const audit = {
   exerciseE() {
 
     var shoe = 'heel';
-    // Log A: 
+    // Log A: shoe
 
     function putOnShoe() {
       shoe = 'boot';
