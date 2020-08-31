@@ -1,6 +1,6 @@
 # Week 3 Audit
 
-The purposes of this repo is to review your understanding of context, scope, and
+The purposes of this repo is to review your understanding of context, scope, and array prototype methods.
 
 - clone the repo down
 - `cd` into the directory for this project.
