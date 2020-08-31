@@ -1,22 +1,21 @@
 # Week 3 Audit
 
- Fork this repo (do not clone), then clone your forked copy to your machine. 
+The purposes of this repo is to review your understanding of context, scope, and
 
- `cd` into the directory for this project
+- clone the repo down
+- `cd` into the directory for this project.
+- Run `npm install` to install dependencies.
+- All work should be completed in the `index.js` file.
 
- Run `npm install` to install dependencies
+When you have finished the exercises and want to double check your solutions, you can merge the testing branch into your main.  
 
- All work should be completed in the `index.js` file
-
-You will have one hour to complete these exercises.  
-
-Once you have completed your work, push it up to GitHub and DM the link of your GitHub repo to your instructor.
+- Run `git merge option-1-testing` followed by `npm test` to run the testing suite.
 
 ---
 
 *For each context exercise*
 
-We want to know what the value of this is when a certain piece of code is executed. This might be a standalone function or a method on an object. 
+We want to know what the value of `this` is when a certain piece of code is executed. This might be a standalone function or a method on an object. 
 
 Your result should be a string in one of the following formats:
 
@@ -24,7 +23,7 @@ Your result should be a string in one of the following formats:
 'global window object'  
 'nameOfObject'  
 'instance of nameOfClassInstance'  
-````
+```
 
 Your answer should be assigned to the `result` variable.
 
@@ -47,9 +46,9 @@ Your answer should be assigned to the `result` variable.
 
 --- 
 
-For the prototype exercises, you will want to assign your solution to the variable result.  
+*For each prototype exercise*
 
-An example of what your solution might look like can be found below: 
+You will want to assign your solution to the variable result.  An example of what your solution might look like can be found below: 
 
 
 ```js
@@ -71,9 +70,9 @@ const farmPrompts = {
   }
 }
 ```
--- 
+---
 
-*For Bonus Exercise* 
+*For the Bonus Exercise* 
 
 If you have time, please read through the directions in `index.js` to complete the bonus exercise
 
